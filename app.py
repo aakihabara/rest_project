@@ -6,7 +6,6 @@ from flask_jwt_extended import JWTManager
 from flask_migrate import Migrate
 
 from db import db
-import models
 from blocklist import BLOCKLIST
 
 from resources.item import blp as ItemBlueprint
